@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Modak|Righteous|Quicksand&display=swap" rel="stylesheet">
+    <link id="fav" rel="icon" href="./assets/fav.png" type="image/gif" sizes="16x16">
+    <title>Yitzchok Kirsh</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <button id="navicon-x"><i class="fas fa-times"></i></button>
+            <button id="navicon"><i class="fas fa-bars"></i></button>
+            <nav>
+                <ul>
+                    <li><a href="#home"><i class="fas fa-home"></i><br>Home</a></li>
+                    <li><a href="#about"><i class="fas fa-info-circle"></i><br>About</a></li>
+                    <li><a href="#portfolio"><i class="fas fa-folder-open"></i><br>Portfolio</a></li>
+                    <li><a href="#contact"><i class="fas fa-at"></i><br>Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="home">
+            <!-- <div id="notice"><i class="fas fa-exclamation-circle"></i>
+                <h2>Please note that this site is currently under construction.</h2>
+                <h2>We apologize for any imperfections.</h2><i class="fas fa-exclamation-circle"></i>
+            </div> -->
+            <h1>HK Web</h1>
+            <h3 class="banner">A WORLD OF INFINTE CREATIVITY AND FUNCTIONALITY</h3>
+            <h3 class="banner">LET'S MAKE IT BETTER THAN IMAGINED</h3>
+            <h3 class="banner">THE SKY IS NO LIMIT!</h3>
+            <span class="cloud"><i class="fab fa-html5"></i></span>
+            <span class="cloud"><i class="fab fa-css3-alt"></i></span>
+            <span class="cloud"><i class="fab fa-js-square"></i></span>
+            <span class="cloud"><i class="fab fa-php"></i></span>
+            <span class="cloud"><i class="fas fa-code"></i></span>
+            <span class="cloud"><i class="fas fa-server"></i></span>
+            <span class="cloud"><i class="fas fa-database"></i></span>
+            <span class="cloud"><i class="fas fa-globe"></i></span>
+            <span class="cloud"><i class="fab fa-node-js"></i></span>
+            <span class="cloud"><i class="fab fa-github-square"></i></span>
+        </section>
+        <section id="about">
+            <img src="./assets/avatar.png" alt="">
+            <p>
+                Hershy Kirsh is a full-stack web developer leaned programming at WebSchool Academy in Jerusalem
+                Israel and currentl resides in New York.
+                With a sharp eye for detail and an excellent finesse for design his creations are sure to be
+                astonishingly beautiful.
+                He also has a knack for efficient and refined engineering which is expressed in every piece of
+                programming code that he writes.
+
+                Be sure to check out the portfolio section to see some of his creations and we're sure you'll want to
+                proceed to the contact page after that.
+            </p>
+                <!-- <i class="fab fa-github-square"></i> -->
+
+        </section>
+        <section id="portfolio">
+            <div id="waves">
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+            </div>
+            <div id="proj-container">
+                <div class="project">
+                    <a href="https://poker-093a44.appdrag.site/" target="_blank"><img src="./assets/poker.JPG" alt="poker" title="Click to open project"></a>
+                    <h3>Poker</h3>
+                    <div class="info">
+                        <p>Contains HTML5, CSS3 and JavaScript.
+                            Organized with MVC design pattern.
+                        </p>
+                    </div>
+                </div>
+                <div class="project">
+                    <div id="img-container">
+                        <a href="https://game-dog-eat-bone-0e4bf2.appdrag.site/" target="_blank"><img src="./assets/dogeatbone.JPG"
+                                alt="Dog Eat Bone" title="Click to open project"></a>
+                    </div>
+                    <h3>Dog Eat Bone</h3>
+                </div>
+                <div class="project">
+                    <a href="https://bulletin-board-1a0586.appdrag.site" target="_blank"><img src="./assets/bullitenboard.JPG"
+                            alt="Bulletin Board" title="Click to open project"></a>
+                    <h3>Bulletin Board</h3>
+                </div>
+                <div class="project">
+                    <a href="https://" target="_blank"><img src="./assets/stopwatch.JPG" alt="Stopwatch" title="Click to open project"></a>
+                    <h3>Stopwatch</h3>
+                </div>
+                <div class="project">
+                    <a href="https://" target="_blank"><img src="./assets/database_interface.JPG" alt="Database Interface" title="Click to open project"></a>
+                    <h3>Database Interface</h3>
+                </div>
+                <div class="project">
+                    <a href="https://" target="_blank"><img src="./assets/walking_animation.JPG" alt="Person Walking Animation" title="Click to open project"></a>
+                    <h3>Walking Animation (CSS)</h3>
+                </div>
+                <!--<div id="noise"></div>-->
+            </div>
+        </section>
+        <section id="contact">
+            <div id="contact-wrapper">
+                <h2>Connect, and watch the magic happen</h2>
+                <a id="email-wrapper" href="mailto:hershy@hershykirsh.com">&#9993;&nbsp; hershy@hershykirsh.com</a>
+                <form action="mailto:hershy@hershykirsh@gmail.com" method="post" enctype="text/plain">
+                    <input type="text" name="name" class="form-input" placeholder="Name">
+                    <input type="email" name="email" class="form-input" placeholder="Email">
+                    <input type="phone" name="phone" class="form-input" placeholder="Phone">
+                    <textarea name="message" class="form-input" placeholder="Message"></textarea>
+                        <button id="submit-form">SEND</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
