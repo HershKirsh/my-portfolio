@@ -70,15 +70,16 @@
                 <div class="wave"></div>
                 <div class="wave"></div>
             </div>
+            <button onclick=""><</button>
             <div id="proj-container">
                 <div class="project">
                     <a href="https://poker-093a44.appdrag.site/" target="_blank"><img src="./assets/poker.JPG" alt="poker" title="Click to open project"></a>
                     <h3>Poker</h3>
-                    <div class="info">
+                    <!-- <div class="info">
                         <p>Contains HTML5, CSS3 and JavaScript.
                             Organized with MVC design pattern.
                         </p>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="project">
                     <div id="img-container">
@@ -111,11 +112,11 @@
             <div id="contact-wrapper">
                 <h2>Connect, and watch the magic happen</h2>
                 <a id="email-wrapper" href="mailto:hershy@hershykirsh.com">&#9993;&nbsp; hershy@hershykirsh.com</a>
-                <form action="mailto:hershy@hershykirsh@gmail.com" method="post" enctype="text/plain">
-                    <input type="text" name="name" class="form-input" placeholder="Name">
-                    <input type="email" name="email" class="form-input" placeholder="Email">
+                <form name="My Website Contact Form" method="post" data-netlify="true" enctype="text/plain">
+                    <input type="text" name="name" class="form-input" placeholder="Name" required>
+                    <input type="email" name="email" class="form-input" placeholder="Email" required>
                     <input type="phone" name="phone" class="form-input" placeholder="Phone">
-                    <textarea name="message" class="form-input" placeholder="Message"></textarea>
+                    <textarea name="message" class="form-input" placeholder="Message" required></textarea>
                         <button id="submit-form">SEND</button>
                 </form>
             </div>
